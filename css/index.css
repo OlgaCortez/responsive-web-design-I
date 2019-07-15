@@ -217,8 +217,15 @@ footer{
         width: 400px;
     }
 
-    section.main-content {
-        display: 
+    .top-content, .bottom-content, .middle-img {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        
+    }
+
+    footer{
+        width: 400px;
     }
 
 
